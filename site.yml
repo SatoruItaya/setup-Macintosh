@@ -1,0 +1,16 @@
+- hosts: localhost
+  connection: local
+  gather_facts: yes
+  roles:
+    - homebrew
+    - homebrew_cask
+    - mas
+    - macos
+    - awscli
+    - xcode
+    - fonts
+    - vsc
+    - golang
+    - node
+    - pip
+    - yarn

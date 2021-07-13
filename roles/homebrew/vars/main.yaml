@@ -1,0 +1,11 @@
+taps:
+  - dty1er/tap
+  - homebrew/core
+  - homebrew/services
+  - jesseduffield/lazygit
+  - shyiko/kubesec
+  - weaveworks/tap
+
+packages:
+  - { name: ansible, state: present }
+  - { name: mas, state: present }

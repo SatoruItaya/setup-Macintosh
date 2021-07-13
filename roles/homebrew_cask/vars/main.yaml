@@ -1,0 +1,6 @@
+packages:
+  - { name: google-chrome, state: present }
+  - { name: google-japanese-ime, state: present }
+  - { name: visual-studio-code, state: present }
+  - { name: iterm2, state: present }
+  - { name: docker, state: present }

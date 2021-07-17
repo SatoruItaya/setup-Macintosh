@@ -5,7 +5,136 @@ taps:
   - jesseduffield/lazygit
   - shyiko/kubesec
   - weaveworks/tap
+  - norwoodj/tap
+  - kayac/tap
+  - sanemat/font
 
 packages:
+  # Kubernetes
+  - { name: kube-ps1, state: present }
+  - { name: kubecolor, state: present }
+  - { name: kubectx, state: present }
+  - { name: kubesec, state: present }
+  - { name: kubernetes-cli, state: present }
+  - { name: stern, state: present }
+  # Helm
+  - { name: helm, state: present }
+  - { name: helm-docs, state: present }
+  - { name: helmfile, state: present }
+  - { name: chart-testing, state: present }
+  # Terraform
+  - { name: terraformer, state: present }
+  - { name: tfenv, state: present }
+  - { name: tflint, state: present }
+  - { name: tfsec, state: present }
+  # AWS
+  - { name: aws-iam-authenticator, state: present }
+  # ECS
+  - { name: ecspresso, state: present }
+  # EKS
+  - { name: eksctl, state: present }
+  # OPA
+  - { name: conftest, state: present }
+  # Git
+  - { name: git, state: present }  
+  - { name: lazygit, state: present }
+  - { name: ghq, state: present }
+  # Go
+  - { name: go, state: present }
+  # Python
+  - { name: pyenv, state: present }
+  - { name: python@3.8, state: present }
+  - { name: python@3.9, state: present }
+  # Ruby
+  - { name: rbenv, state: present }
+  - { name: ruby, state: present }
+  - { name: ruby-build, state: present }
+  # Others
   - { name: ansible, state: present }
   - { name: mas, state: present }
+  - { name: adns, state: present }
+  - { name: autoconf, state: present }
+  - { name: automake, state: present }
+  - { name: bdw-gc, state: present }
+  - { name: c-ares, state: present }
+  - { name: cairo, state: present }
+  - { name: direnv, state: present }
+  - { name: fontconfig, state: present }
+  - { name: fontforge, state: present }
+  - { name: freetype, state: present }
+  - { name: fribidi, state: present }
+  - { name: gdbm, state: present }
+  - { name: gettext, state: present }
+  - { name: giflib, state: present }
+  - { name: glib, state: present }
+  - { name: glide, state: present }
+  - { name: gmp, state: present }
+  - { name: gnupg, state: present }
+  - { name: gnutls, state: present }
+  - { name: gobject-introspection, state: present }
+  - { name: graphite2, state: present }
+  - { name: guile, state: present }
+  - { name: harfbuzz, state: present }
+  - { name: hub, state: present }
+  - { name: hugo, state: present }
+  - { name: icu4c, state: present }
+  - { name: jemalloc, state: present }
+  - { name: jpeg, state: present }
+  - { name: jq, state: present }
+  - { name: jsonlint, state: present }
+  - { name: libassuan, state: present }
+  - { name: libev, state: present }
+  - { name: libevent, state: present }
+  - { name: libffi, state: present }
+  - { name: libgcrypt, state: present }
+  - { name: libgpg-error, state: present }
+  - { name: libidn2, state: present }
+  - { name: libksba, state: present }
+  - { name: libpng, state: present }
+  - { name: libspiro, state: present }
+  - { name: libtasn1, state: present }
+  - { name: libtermkey, state: present }
+  - { name: libtiff, state: present }
+  - { name: libtool, state: present }
+  - { name: libuninameslist, state: present }
+  - { name: libunistring, state: present }
+  - { name: libusb, state: present }
+  - { name: libuv, state: present }
+  - { name: libvterm, state: present }
+  - { name: libyaml, state: present }
+  - { name: lua, state: present }
+  - { name: luajit, state: present }
+  - { name: lzo, state: present }
+  - { name: msgpack, state: present }
+  - { name: neovim, state: present }
+  - { name: nettle, state: present }
+  - { name: nghttp2, state: present }
+  - { name: node, state: present }
+  - { name: nodebrew, state: present }
+  - { name: npth, state: present }
+  - { name: oniguruma, state: present }
+  - { name: openjdk@11, state: present }
+  - { name: openssl@1.1, state: present }
+  - { name: p11-kit, state: present }
+  - { name: pango, state: present }
+  - { name: pcre, state: present }
+  - { name: pcre2, state: present }
+  - { name: peco, state: present }
+  - { name: perl, state: present }
+  - { name: pinentry, state: present }
+  - { name: pixman, state: present }
+  - { name: pkg-config, state: present }
+  - { name: readline, state: present }
+  - { name: ricty, state: present }
+  - { name: sl, state: present }
+  - { name: sops, state: present }
+  - { name: sqlite, state: present }
+  - { name: tree, state: present }
+  - { name: unbound, state: present }
+  - { name: unibilium, state: present }
+  - { name: vim, state: present }
+  - { name: watchman, state: present }
+  - { name: wget, state: present }
+  - { name: xz, state: present }
+  - { name: yarn, state: present }
+  - { name: java11, state: present }

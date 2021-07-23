@@ -17,3 +17,6 @@ Installs some packages (Homebrew etc.) by Ansible
 ```
 $ ansible-playbook -i localhost site.yml
 ```
+
+# References 
+- https://techte.co/2018/01/22/ansible-mac/

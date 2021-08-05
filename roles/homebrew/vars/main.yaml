@@ -3,7 +3,6 @@ taps:
   - homebrew/core
   - homebrew/services
   - jesseduffield/lazygit
-  - shyiko/kubesec
   - weaveworks/tap
   - norwoodj/tap
   - kayac/tap
@@ -14,7 +13,6 @@ packages:
   - { name: kube-ps1, state: present }
   - { name: kubecolor, state: present }
   - { name: kubectx, state: present }
-  - { name: kubesec, state: present }
   - { name: kubernetes-cli, state: present }
   - { name: stern, state: present }
   # Helm

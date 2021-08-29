@@ -1,0 +1,6 @@
+- block:
+
+  - name: install kubectl_aliases
+    get_url:
+      url: https://raw.githubusercontent.com/ahmetb/kubectl-alias/master/.kubectl_aliases
+      dest: ~/.kubectl_aliases

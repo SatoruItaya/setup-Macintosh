@@ -15,7 +15,7 @@ Installs some packages (Homebrew etc.) by Ansible
 # Execution
 
 ```
-$ ansible-playbook -i localhost site.yml
+$ ansible-playbook -i localhost package.yml
 ```
 
 # References 

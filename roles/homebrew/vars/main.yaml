@@ -56,6 +56,7 @@ packages:
   - { name: bdw-gc, state: present }
   - { name: c-ares, state: present }
   - { name: cairo, state: present }
+  - { name: circleci, state: present }
   - { name: direnv, state: present }
   - { name: fontconfig, state: present }
   - { name: fontforge, state: present }

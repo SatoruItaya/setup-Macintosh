@@ -4,3 +4,8 @@
     get_url:
       url: https://raw.githubusercontent.com/ahmetb/kubectl-alias/master/.kubectl_aliases
       dest: ~/.kubectl_aliases
+
+  - name: install zsh-autosuggestions
+    get_url:
+      url: https://raw.githubusercontent.com/zsh-users/zsh-autosuggestions/master/zsh-autosuggestions.zsh
+      dest: ~/.zsh/zsh-autosuggestions.zsh

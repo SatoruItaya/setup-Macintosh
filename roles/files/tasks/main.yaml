@@ -1,11 +1,10 @@
 - block:
 
-  - name: install kubectl_aliases
+  - name: install files
     get_url:
-      url: https://raw.githubusercontent.com/ahmetb/kubectl-alias/master/.kubectl_aliases
-      dest: ~/.kubectl_aliases
+      url: "{{ item.url }}"
+      dest: "{{ item.dest }}"
+    with_items: "{{ files }}"
 
-  - name: install zsh-autosuggestions
-    get_url:
-      url: https://raw.githubusercontent.com/zsh-users/zsh-autosuggestions/master/zsh-autosuggestions.zsh
-      dest: ~/.zsh/zsh-autosuggestions.zsh
+  tags:
+    - files

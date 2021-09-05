@@ -1,3 +1,7 @@
+directory:
+  - ~/.vim/colors
+
 files:
   - { url: https://raw.githubusercontent.com/ahmetb/kubectl-alias/master/.kubectl_aliases, dest: ~/.kubectl_aliases }
-  - { url: https://raw.githubusercontent.com/zsh-users/zsh-autosuggestions/master/zsh-autosuggestions.zsh, dest: ~/.zsh/zsh-autosuggestions.zsh}
+  - { url: https://raw.githubusercontent.com/zsh-users/zsh-autosuggestions/master/zsh-autosuggestions.zsh, dest: ~/.zsh/zsh-autosuggestions.zsh }
+  - { url: https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim, dest: ~/.vim/colors }

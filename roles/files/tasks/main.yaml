@@ -1,5 +1,11 @@
 - block:
 
+  - name: create directory
+    file:
+      path: "{{ item }}"
+      state: directory
+    with_items: "{{ directory}}"
+
   - name: install files
     get_url:
       url: "{{ item.url }}"

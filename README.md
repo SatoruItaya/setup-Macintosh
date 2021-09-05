@@ -19,7 +19,7 @@ $ ansible-playbook -i localhost package.yml
 ```
 
 # Caution
-- Creating symbolic links for dotfiles is not included in this repository. Refer to [SatoruItaya](https://github.com/SatoruItaya/dotfiles).
+- Creating symbolic links for dotfiles is not included in this repository. Refer to [SatoruItaya/dotfiles](https://github.com/SatoruItaya/dotfiles).
 
 # References 
 - https://techte.co/2018/01/22/ansible-mac/

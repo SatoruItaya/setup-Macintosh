@@ -1,6 +1,6 @@
 # setup-Macintosh
 
-Installs some packages (Homebrew etc.) by Ansible
+Installs some packages (Homebrew etc.) and files by Ansible
 
 # Environment
 - macOS

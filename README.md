@@ -15,7 +15,11 @@ Installs some packages (Homebrew etc.) by Ansible
 # Execution
 
 ```
+# Install packages
 $ ansible-playbook -i localhost package.yml
+
+# Install files
+$ ansible-playbook -i localhost files.yml
 ```
 
 # Caution

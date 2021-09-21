@@ -15,6 +15,7 @@ packages:
   - { name: kubectx, state: present }
   - { name: kubernetes-cli, state: present }
   - { name: stern, state: present }
+  - { name: kubeseal, state: present}
   # Helm
   - { name: helm, state: present }
   - { name: helm-docs, state: present }

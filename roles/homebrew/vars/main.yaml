@@ -1,5 +1,4 @@
 taps:
-  - dty1er/tap
   - homebrew/core
   - homebrew/services
   - jesseduffield/lazygit
@@ -11,11 +10,11 @@ taps:
 packages:
   # Kubernetes
   - { name: kube-ps1, state: present }
-  - { name: kubecolor, state: present }
   - { name: kubectx, state: present }
   - { name: kubernetes-cli, state: present }
   - { name: stern, state: present }
   - { name: kubeseal, state: present}
+  - { name: jjuarez/homebrew-tap-1/kubecolor, state: present}
   # Helm
   - { name: helm, state: present }
   - { name: helm-docs, state: present }

@@ -1,5 +1,4 @@
 taps:
-  - homebrew/core
   - homebrew/services
   - jesseduffield/lazygit
   - weaveworks/tap
@@ -14,7 +13,6 @@ packages:
   - { name: kubernetes-cli, state: present }
   - { name: stern, state: present }
   - { name: kubeseal, state: present}
-  - { name: jjuarez/homebrew-tap-1/kubecolor, state: present}
   # Helm
   - { name: helm, state: present }
   - { name: helm-docs, state: present }
@@ -41,7 +39,6 @@ packages:
   - { name: go, state: present }
   # Python
   - { name: pyenv, state: present }
-  - { name: python@3.8, state: present }
   - { name: python@3.9, state: present }
   # Ruby
   - { name: rbenv, state: present }
@@ -66,7 +63,6 @@ packages:
   - { name: gettext, state: present }
   - { name: giflib, state: present }
   - { name: glib, state: present }
-  - { name: glide, state: present }
   - { name: gmp, state: present }
   - { name: gnupg, state: present }
   - { name: gnutls, state: present }
@@ -113,7 +109,6 @@ packages:
   - { name: npth, state: present }
   - { name: oniguruma, state: present }
   - { name: openjdk@11, state: present }
-  - { name: openssl@1.1, state: present }
   - { name: p11-kit, state: present }
   - { name: pango, state: present }
   - { name: pcre, state: present }
@@ -124,7 +119,6 @@ packages:
   - { name: pixman, state: present }
   - { name: pkg-config, state: present }
   - { name: readline, state: present }
-  - { name: ricty, state: present }
   - { name: sl, state: present }
   - { name: sops, state: present }
   - { name: sqlite, state: present }

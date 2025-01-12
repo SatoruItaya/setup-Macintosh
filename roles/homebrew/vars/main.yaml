@@ -35,6 +35,7 @@ packages:
   - { name: git, state: present }  
   - { name: lazygit, state: present }
   - { name: ghq, state: present }
+  - { name: gh, state: present }
   # Go
   - { name: go, state: present }
   # Python
